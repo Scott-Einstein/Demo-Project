@@ -50,12 +50,14 @@ public class Circle {
         setRadius(radius);
     }
 
+
     @Override
     public String toString() {
         return String.format("radius = %.2f, x = %.2f, y = %.2f\n", getRadius(), getX(), getY());
     }
 
     public double distanceToOrigin() {
-        return Math.sqrt(getX() * getX() + getY() * getY());
+//        return Math.sqrt(getX() * getX() + getY() * getY());
+        return Math.sqrt(x * x + y * y);
     }
 }
