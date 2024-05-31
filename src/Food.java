@@ -8,6 +8,7 @@ public class Food {
         this.price = price;
     }
 
+    //New branch modification
     @Override
     public String toString() {
         return String.format("%s %s: (%d Inches) %.2f $", getType(), getName(), getSize(), getPrice());
