@@ -60,4 +60,8 @@ public class Circle {
 //        return Math.sqrt(getX() * getX() + getY() * getY());
         return Math.sqrt(x * x + y * y);
     }
+
+    public void printHelloWorld() {
+        System.out.println("Hello world!");
+    }
 }
