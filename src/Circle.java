@@ -1,5 +1,6 @@
 
 public class Circle {
+    // Modification1: Today is Friday
     private double radius;
     private double x;
     private double y;
