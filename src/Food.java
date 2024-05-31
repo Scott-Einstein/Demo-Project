@@ -65,4 +65,8 @@ public class Food {
                 this.id, this.type, this.name, this.size, this.price);
     }
 
+    public void print() {
+        System.out.println("12345");
+    }
+
 }
